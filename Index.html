@@ -8,14 +8,17 @@
     <h1><b>About me!</b></h1>
 </head>
 <body>
-
-<p>Hello! My name is Justin Williams. I'm 20 years old and
-I'm currently attending Code Crew and <abbr title="Full Sail University">FSU.</abbr></p>
-<p>At FSU I'm studying Audio Production <s>I'm changing it to Game Development but that's gonna take awhile </s></p>
+<ul>
+<li>Hello! My name is Justin Williams.</li> 
+<li>I'm 20 years old</li>
+<li>I'm currently attending Code Crew and <abbr title="Full Sail University">FSU.</abbr></li>
+<li>At FSU I'm studying Audio Production <s>I'm changing it to Game Development but that's gonna take awhile </s></li>
 
 <hr />
 <h2>My Job "Experience"</h2>
-<p>My job experience is mainly freelance work. For 5 years I've coached people in a game called League Of Legends that's the only type of job experience I really have.</p>
+<ul>
+<li>My job experience is mainly freelance work. For 5 years I've coached people in a game called League Of Legends that's the only type of job experience I really have.</li>
+</ul>
 
 <hr />
 <h3><i>My Goals</i></h3>
@@ -25,6 +28,22 @@ I'm currently attending Code Crew and <abbr title="Full Sail University">FSU.</a
 <li>Go back to coaching semi-pro teams on League Of Legends</li>
 <li>Use my knowledge of Sofware Development and Game Development to market myself to varies game studios  </li>
 </ul>
+<hr />
+<h3><em>My Top Ten Songs</em></h3>
+<ul>
+<li> <a href = "https://youtu.be/6JapDyUwAu8" target="_blank" rel="noopener noreferrer">Mick Gordon (feat. Omega Sparx) - I'm Back (to Rise)</a></li>
+<li> <a herf = "https://youtu.be/vpkGpaP__ow" target="_blank" rel="noopener noreferrer">The Dragon Spirit By Celldweller</a></li>
+<li> <a href = "https://youtu.be/KbNL9ZyB49c" target="_blank" rel="noopener noreferrer">Take Over (ft. Jeremy McKinnon (A Day To Remember), MAX, Henry) | Worlds 2020 - League of Legends</a></li>
+<li> <a href = "https://youtu.be/t3j-JLylgNk" target="_blank" rel="noopener noreferrer">Vicetone feat. Kat Nestel - Angels</a></li>
+<li> <a href = "https://youtu.be/PfkBo9iyY_A" target="_blank" rel="noopener noreferrer">Melanie Martinez - Milk & Cookies (Spectre Remix)</a></li>
+<li> <a href = "https://youtu.be/obeXPTAV4wU" target="_blank" rel="noopener noreferrer">Bel Heir - Kiss The Devil (Just A Gent Remix)</a></li>
+<li> <a href = "https://youtu.be/mExmqHOkAIU" target="_blank" rel="noopener noreferrer">Prismo - Solo</a></li>
+<li> <a href = "https://youtu.be/VDvr08sCPOc" target="_blank" rel="noopener noreferrer">Remember The Name (Official Video) - Fort Minor</a></li>
+<li> <a herf = "https://youtu.be/lPFgd98pDKI" target="_blank" rel="noopener noreferrer">MACKLEMORE FEAT SKYLAR GREY - GLORIOUS (OFFICIAL MUSIC VIDEO)</a></li>
+<li> <a href = "https://youtu.be/Cr-SqRWImmI" target="_blank" rel="noopener noreferrer">MARINA - Oh No!</a></li>
+</ul>
+
+
 <script>
 alert("Welcome to my webpage!")
 let response = prompt("How are you?")
@@ -39,7 +58,13 @@ while (myName)
     {
         myName = false;
         console.log(myName);
+        alert("You're right!");
     }
+    else
+    {
+        alert ("Incorrect.");
+    }
+    
 }
 let Pc = true;
 while (Pc)
@@ -50,6 +75,11 @@ while (Pc)
     {
         Pc = false;
         console.log(Pc);
+        alert("You're right!");
+    }
+    else
+    {
+        alert("Incorrect");
     }
 }
 let Doggo = true;
@@ -61,6 +91,11 @@ while (Doggo)
     {
         Doggo = false;
         console.log(Doggo);
+        alert("You're Right!")
+    }
+    else
+    {
+        alert("Incorrect");
     }
 }
 let Coaching = true;
@@ -70,7 +105,12 @@ while (Coaching)
     if (response.toLowerCase() === "N" || response.toLowerCase() === 'no')
     {
         Coaching = false;
-        console.log(Coaching)
+        console.log(Coaching);
+        alert("You're Right!");
+    }
+    else
+    {
+        alert("Incorrect");
     }
 
 }
@@ -81,8 +121,51 @@ while (Saxophone)
     if (response.toLowerCase() === "Yes" || response.toLowerCase() === 'yes')
     {
         Saxophone = false;
-        console.log(Saxophone)
+        console.log(Saxophone);
+        alert("You're Right!");
     }
+    else
+    {
+        alert("Incorrect");
+    }
+
+    
+
+
+}
+let numbers = true;
+
+    for (let i = 0; i < 6; i++)
+{
+    let GuessingGame = prompt("Guess between 1-10");
+    if (GuessingGame === "7")
+    {
+        numbers = false;
+    }
+    
+    {
+        console.log(GuessingGame[i]);
+    }
+    
+
+    
+}
+let Numbers = true;
+for (let i = 0; i < 4; i++)
+{
+    let guessinggame = prompt("Guess between 1-7");
+    if (guessinggame <= "3")
+    if (guessinggame < 2)
+    console.log(Numbers)
+    alert("Too low")
+    {
+        Numbers = false;
+    }
+     
+
+
+
+    
 }
 
 
