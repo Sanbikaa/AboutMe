@@ -133,42 +133,42 @@ while (Saxophone)
 
 
 }
-let numbers = true;
-
-    for (let i = 0; i < 6; i++)
+function guessing()
 {
-    let GuessingGame = prompt("Guess between 1-10");
-    if (GuessingGame === "7")
-    {
-        numbers = false;
-    }
-    
-    {
-        console.log(GuessingGame[i]);
-    }
-    
-
-    
-}
-let Numbers = true;
-for (let i = 0; i < 4; i++)
-{
-    let guessinggame = prompt("Guess between 1-7");
-    if (guessinggame <= "3")
-    if (guessinggame < 2)
-    console.log(Numbers)
-    alert("Too low")
-    {
-        Numbers = false;
-    }
-     
-
-
-
-    
+    console.log("Guessing");
 }
 
+    function guessingGame(guessingGame)
+    {
+        let guessingTheNumber = true;
+        let response = prompt ("Guess the number between 1-6");
+        guessingTheNumber = false;
+        console.log("logging numbers");
+        alert("Good Job!");
+        return guessingTheNumber;
+    }
+    // console.log("Numbers"); //Had to comment out the code because I have no idea what's wrong with it.
+    // guessing();
+    // console.log(guessingTheNumber);
+    // guessingTheNumber(2);
+    // guessingTheNumber(3);
+    // guessingTheNumber(6);
+    
 
-</script>
-</body>
-</html>
+
+
+   
+
+    
+
+let numbers1 = ["1", "2", "3", "5", "6", "7", "8", "9", "10",]
+let numberGuessed = prompt ("Guess the number between 1-10");
+
+for (i = 0; i < numbers1.length; i++)
+{
+    console.log(numbers1[i])
+    if(numberGuessed === "3")
+    {
+        alert("You got it right! Wanna do it again?");
+    }
+    else{
