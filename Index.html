@@ -45,10 +45,12 @@
 
 
 <script>
-alert("Welcome to my webpage!")
-let response = prompt("How are you?")
-if (response.toLowerCase() === "Good");
-if (response.toLowerCase() === "Bad");
+const quiz = function aboutMeQuiz() {
+    let name = prompt("What is your name");
+    while (name == null || name === ''){
+        name = prompt("Please enter your name!");
+    }
+}
 
 let myName = true;
 while (myName)
@@ -133,23 +135,25 @@ while (Saxophone)
 
 
 }
-let numbers = true;
+let numbers1 = ["1", "2", "3", "5", "6", "7", "8", "9", "10",]
+let numberGuessed = prompt ("Guess the number between 1-10");
 
-    for (let i = 0; i < 6; i++)
+for (i = 0; i < numbers1.length; i++)
 {
-    let GuessingGame = prompt("Guess between 1-10");
-    if (GuessingGame === "7")
+    console.log(numbers1[i])
+    if(numberGuessed === "3")
     {
-        numbers = false;
+        alert("You got it right! Wanna do it again?");
     }
-    
-    {
-        console.log(GuessingGame[i]);
+    else{
+        alert("How did you guess outside of this?!");
     }
+
+}
     
 
     
-}
+
 let Numbers = true;
 for (let i = 0; i < 4; i++)
 {
