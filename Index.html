@@ -45,10 +45,12 @@
 
 
 <script>
-alert("Welcome to my webpage!")
-let response = prompt("How are you?")
-if (response.toLowerCase() === "Good");
-if (response.toLowerCase() === "Bad");
+const quiz = function aboutMeQuiz() {
+    let name = prompt("What is your name");
+    while (name == null || name === ''){
+        name = prompt("Please enter your name!");
+    }
+}
 
 let myName = true;
 while (myName)
@@ -133,34 +135,6 @@ while (Saxophone)
 
 
 }
-function guessing()
-{
-    console.log("Guessing");
-}
-
-    function guessingGame(guessingGame)
-    {
-        let guessingTheNumber = true;
-        let response = prompt ("Guess the number between 1-6");
-        guessingTheNumber = false;
-        console.log("logging numbers");
-        alert("Good Job!");
-        return guessingTheNumber;
-    }
-    // console.log("Numbers"); //Had to comment out the code because I have no idea what's wrong with it.
-    // guessing();
-    // console.log(guessingTheNumber);
-    // guessingTheNumber(2);
-    // guessingTheNumber(3);
-    // guessingTheNumber(6);
-    
-
-
-
-   
-
-    
-
 let numbers1 = ["1", "2", "3", "5", "6", "7", "8", "9", "10",]
 let numberGuessed = prompt ("Guess the number between 1-10");
 
@@ -172,3 +146,33 @@ for (i = 0; i < numbers1.length; i++)
         alert("You got it right! Wanna do it again?");
     }
     else{
+        alert("How did you guess outside of this?!");
+    }
+
+}
+    
+
+    
+
+let Numbers = true;
+for (let i = 0; i < 4; i++)
+{
+    let guessinggame = prompt("Guess between 1-7");
+    if (guessinggame <= "3")
+    if (guessinggame < 2)
+    console.log(Numbers)
+    alert("Too low")
+    {
+        Numbers = false;
+    }
+     
+
+
+
+    
+}
+
+
+</script>
+</body>
+</html>
