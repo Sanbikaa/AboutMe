@@ -1,0 +1,27 @@
+body {
+    width: 800px;
+    background-color: blanchedalmond;
+    color: rgb(255, 255, 255)
+}
+
+h1 {
+    color:rgb(14, 2, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+    a:link { color: royalblue;}
+    a:visited{color:rgb(140, 0, 255)}
+    a:hover{color:tomato}
+    a:active{color: rgb(255, 0, 212);}
+       
+    div {
+        background: rgba(8, 8, 8, 0.568);} 
+    
+        body {
+            background-image: url("https://wallpapercave.com/wp/wp4575272.jpg");
+          }
+         
+          h2{
+              background-color: rgb(189, 82, 82);
+          }
+        
+          

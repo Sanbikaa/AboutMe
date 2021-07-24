@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    
     <h1><b>About me!</b></h1>
 </head>
 <body>
@@ -19,7 +21,9 @@
 <ul>
 <li>My job experience is mainly freelance work. For 5 years I've coached people in a game called League Of Legends that's the only type of job experience I really have.</li>
 </ul>
-
+<div class="border2">
+    <div class="border1">
+    <div id="container">
 <hr />
 <h3><i>My Goals</i></h3>
 <p>My goals are the following:</p>
@@ -55,7 +59,7 @@ const quiz = function aboutMeQuiz() {
 let myName = true;
 while (myName)
 {
-    let response = prompt ("Is my name Justin Williams?").toLowerCase(); //User should enter yes or no
+    let response = prompt ("Is my name Justin Williams?").toLowerCase(); 
     if(response === "yes" || response ==="Y")
     {
         myName = false;
@@ -71,7 +75,7 @@ while (myName)
 let Pc = true;
 while (Pc)
 {
-    let response = prompt ("Do I play on PC?"); //User should put Yes or No
+    let response = prompt ("Do I play on PC?"); 
     if (response.toLowerCase() === "yes" || response.toLowerCase() === 'yes')
     
     {
@@ -87,7 +91,7 @@ while (Pc)
 let Doggo = true;
 while (Doggo)
 {
-    let response = prompt ("Do I have a dog?"); // User should put yes or no
+    let response = prompt ("Do I have a dog?"); 
    
     if (response.toLowerCase() === "N" || response.toLowerCase() === 'no')
     {
@@ -103,7 +107,7 @@ while (Doggo)
 let Coaching = true;
 while (Coaching)
 {
-    let response = prompt ("Do I still do coaching?"); // User should put yes or no
+    let response = prompt ("Do I still do coaching?"); 
     if (response.toLowerCase() === "N" || response.toLowerCase() === 'no')
     {
         Coaching = false;
@@ -119,7 +123,7 @@ while (Coaching)
 let Saxophone = true;
 while (Saxophone)
 {
-    let response = prompt ("Do I play the Saxophone?"); // User should put yes or no
+    let response = prompt ("Do I play the Saxophone?"); 
     if (response.toLowerCase() === "Yes" || response.toLowerCase() === 'yes')
     {
         Saxophone = false;
